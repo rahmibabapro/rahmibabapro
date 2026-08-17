@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/rahmibabapro/rahmibabapro/main/assets/lynx-banner.jpg">
-    <img src="https://raw.githubusercontent.com/rahmibabapro/rahmibabapro/main/assets/lynx-signal.gif" alt="A lynx watching from a dark forest" width="100%">
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://github.com/user-attachments/assets/d8a213e4-fb39-4ade-90e4-733e4321400f">
+    <img src="https://github.com/user-attachments/assets/02808faa-1daa-4ade-a7fc-bd52528cf1d6" alt="A lynx watching from a dark forest" width="100%">
   </picture>
 
   <br>
