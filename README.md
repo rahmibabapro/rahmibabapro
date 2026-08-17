@@ -1,32 +1,54 @@
 <div align="center">
-  <img src="./assets/lynx-banner.jpg" alt="A lynx emerging from a dark forest with icy blue rim light" width="100%" />
+  <img src="https://raw.githubusercontent.com/rahmibabapro/rahmibabapro/main/assets/lynx-terminal.svg" alt="Animated ice-blue lynx terminal banner" width="100%" />
+
+  <h1>Rahmi · Full-Stack Systems Developer</h1>
+  <p><strong>I build community products, real-time systems, and developer tools from interface to infrastructure.</strong></p>
+  <p>
+    <a href="https://github.com/rahmibabapro?tab=repositories">Projects</a>
+    ·
+    <a href="https://github.com/users/rahmibabapro/projects/1">Development board</a>
+  </p>
 </div>
 
-# Building communities, multiplayer systems, and developer tools
+## What I build
 
-I design and ship products where software, identity, and online communities meet.
-My work spans modern web platforms, Minecraft infrastructure, and focused automation.
+I work where product design, backend architecture, and operations meet. My projects are shaped around real constraints: permissions, migrations, concurrency, observability, testability, and deployment—not isolated tutorial features.
 
-## Selected work
+| Layer | Working stack |
+|---|---|
+| **Frontend** | TypeScript · React · Next.js · accessible, responsive interfaces |
+| **Backend** | Node.js · API design · authentication · background jobs · real-time events |
+| **Data** | PostgreSQL · SQLite · schema design · search · migrations · caching |
+| **Systems** | Java · Python · Minecraft/Folia · automation · protocol-aware tooling |
+| **Delivery** | Docker · GitHub Actions · testing · security review · release workflows |
 
-| Project | What it solves | Core stack |
-|---|---|---|
-| **[Atrium](https://github.com/rahmibabapro/atrium)** | A self-hostable community platform with forums, identity, moderation, search, notifications, and XenForo migration tooling. | TypeScript · Next.js · React · SQLite/PostgreSQL · Docker |
-| **[HorizonLite](https://github.com/rahmibabapro/HorizonLite)** | Extends client view distance with visual-only fake chunks while Folia simulates a smaller real area. | Java 25 · Folia · PacketEvents · Gradle |
-| **[Nexo Song Optimizer](https://github.com/rahmibabapro/nexo-song-optimizer)** | Deduplicates stem-separated music for smaller Minecraft sound packs and synchronized Folia playback. | Python · librosa · ffmpeg · Java |
+## Flagship project
 
-## What I focus on
+### [Atrium](https://github.com/rahmibabapro/atrium)
 
-- Community products with clear ownership and maintainable foundations
-- Multiplayer systems designed for real operational constraints
-- Small tools that remove repetitive work from creative teams
+A self-hostable community platform that brings forums, identity, moderation, search, notifications, and XenForo migration tooling into one maintainable system.
 
-## Engineering approach
+`TypeScript` `Next.js` `React` `SQLite/PostgreSQL` `Docker` `CI`
 
-- Make the product understandable before making it clever
-- Treat security, tests, and deployment as part of the feature
-- Keep project history readable and changes reviewable
+- Complete product surface rather than a disconnected demo
+- Clear contribution and security policies
+- Automated build and verification workflow
+- Architecture built around ownership, migration, and operational clarity
+
+## Engineering signals
+
+```text
+DISCOVER  → turn a real problem into explicit requirements
+DESIGN    → make boundaries, data flow, and failure modes visible
+BUILD     → ship the smallest complete vertical slice
+VERIFY    → test behavior, audit dependencies, and review the result
+OPERATE   → document setup, deployment, observability, and recovery
+```
+
+## Currently building
+
+The public [Development Board](https://github.com/users/rahmibabapro/projects/1) tracks the next portfolio-grade systems: a collaborative SaaS application, a real-time event platform, and a production-focused API service.
 
 <div align="center">
-  <sub>Quiet systems. Sharp edges. Built to last.</sub>
+  <sub>Quiet systems. Sharp instincts. Built to last.</sub>
 </div>
