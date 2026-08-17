@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">Rahmi full-stack systems developer</title>
+  <desc id="description">An animated ice-blue lynx watches over a dark terminal grid.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080f"/>
+      <stop offset="0.55" stop-color="#091524"/>
+      <stop offset="1" stop-color="#02050a"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#38bdf8" stroke-opacity="0.09"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="24" y="24" width="1232" height="312" rx="22"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#background)"/>
+  <rect x="24" y="24" width="1232" height="312" rx="22" fill="url(#grid)" stroke="#38bdf8" stroke-opacity="0.32"/>
+  <circle cx="1035" cy="180" r="260" fill="url(#aura)">
+    <animate attributeName="r" values="220;270;220" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <g clip-path="url(#frame)" opacity="0.7">
+    <rect x="24" y="-30" width="1232" height="3" fill="#7dd3fc" filter="url(#glow)">
+      <animate attributeName="y" values="-30;390" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(1040 181)" fill="none" stroke="#7dd3fc" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M-121-83L-154-147-84-112Q0-151 84-112L154-147 121-83Q158-34 145 32 117 121 0 139-117 121-145 32-158-34-121-83Z" stroke-width="5"/>
+    <path d="M-118-89L-136-129M118-89L136-129M-91-101Q-53-121 0-118T91-101" stroke-width="3" opacity="0.65"/>
+    <path d="M-100-25Q-59-53-17-24-55 13-100-25ZM100-25Q59-53 17-24 55 13 100-25Z" stroke-width="5"/>
+    <path d="M-18 36 0 51 18 36M0 51V75M0 75Q-22 93-43 75M0 75Q22 93 43 75" stroke-width="4"/>
+    <path d="M-44 46-119 31M-46 58-128 58M44 46 119 31M46 58 128 58" stroke-width="3" opacity="0.72"/>
+    <path d="M-101 94Q-51 124 0 123T101 94" stroke-width="3" opacity="0.5"/>
+    <g fill="#bae6fd" stroke="none">
+      <ellipse cx="-59" cy="-27" rx="13" ry="5">
+        <animate attributeName="ry" values="5;5;0.7;5;5" keyTimes="0;0.46;0.5;0.54;1" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="59" cy="-27" rx="13" ry="5">
+        <animate attributeName="ry" values="5;5;0.7;5;5" keyTimes="0;0.46;0.5;0.54;1" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="86" y="100" fill="#7dd3fc" font-size="20" letter-spacing="5">RAHMI // SYSTEMS ONLINE</text>
+    <text x="82" y="174" fill="#f8fafc" font-size="48" font-weight="700">FULL-STACK DEVELOPER</text>
+    <text x="86" y="222" fill="#94a3b8" font-size="22">product thinking · secure APIs · real-time systems · clean delivery</text>
+    <text x="86" y="286" fill="#38bdf8" font-size="19">$ building things that survive production_</text>
+  </g>
+
+  <circle cx="52" cy="52" r="5" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
