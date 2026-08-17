@@ -9,13 +9,11 @@ My work spans modern web platforms, Minecraft infrastructure, and focused automa
 
 ## Selected work
 
-### [Atrium](https://github.com/rahmibabapro/atrium)
-
-A self-hostable community platform built as a forkable site foundation. Atrium combines
-forums, identity, moderation, search, notifications, and migration tooling in one modern
-Next.js codebase.
-
-`TypeScript` · `Next.js` · `React` · `SQLite` · `PostgreSQL` · `Docker`
+| Project | What it solves | Core stack |
+|---|---|---|
+| **[Atrium](https://github.com/rahmibabapro/atrium)** | A self-hostable community platform with forums, identity, moderation, search, notifications, and XenForo migration tooling. | TypeScript · Next.js · React · SQLite/PostgreSQL · Docker |
+| **[HorizonLite](https://github.com/rahmibabapro/HorizonLite)** | Extends client view distance with visual-only fake chunks while Folia simulates a smaller real area. | Java 25 · Folia · PacketEvents · Gradle |
+| **[Nexo Song Optimizer](https://github.com/rahmibabapro/nexo-song-optimizer)** | Deduplicates stem-separated music for smaller Minecraft sound packs and synchronized Folia playback. | Python · librosa · ffmpeg · Java |
 
 ## What I focus on
 
